@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,2821 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b294e4f495f348bbba7c31f63fe22
+      internalID: 34448936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_1
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27522bb5391f0d84fa88e1dfebf70789
+      internalID: 999718428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_2
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a206b006b0274fb116abbba8e4b77
+      internalID: 1928202078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_3
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82aa40a4cffd54abde7fb376595c50
+      internalID: 1993559296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_4
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7616eccbee81998459ad9542e3f5c5a4
+      internalID: -685834934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_5
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2721.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31ec2d51366fa645a4b44decca5230f
+      internalID: 1119414395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8913483feaf9df4cb889e96f7712300
+      internalID: -175531531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba9b916c5941844ab8568c7df5d52d2
+      internalID: -1818748488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689cf96a353c15b4aafa4b76b5a44bf1
+      internalID: 694140524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f7326cf7ab4614ca3966225462e908
+      internalID: 1869909132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066eb1d015d7d84f9215a090b832b9c
+      internalID: 1473015019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317907124818349498e655bf01ad8aae
+      internalID: 1182769878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_12
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729005cb7d71a964c86ead5fddbc858a
+      internalID: 889658285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_13
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d5691ed1c2d9e4796d8d11210c64da
+      internalID: 1165739565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_14
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd717283370964f9e9e818f22acbce
+      internalID: -1786612916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_15
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed208f84db7bb5f4a9c5fd346098c091
+      internalID: -1461380889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_16
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9ceef01f37a0a478f7caf265d58838
+      internalID: 1076184317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_17
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf8a6e56977bf340a2b7d016607ccb4
+      internalID: 1838547937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_18
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2495.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcdc6c3c41e96342bb52dcbea0341be
+      internalID: -176915097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946f83316c07c304a9eb804222ffe96b
+      internalID: 973395787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a595a433317d14249becb5d9c1e08cca
+      internalID: 1164635704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94fd1eca7043f4a8df73ef7bab37bb
+      internalID: -416712861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281eb4bed1299ab4a8306472e1c661e5
+      internalID: -870064637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_23
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1277bedcefcf24186c482a128a2bf4
+      internalID: 948202782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1707dce63d1d96a4ca343755c5b17c8c
+      internalID: 1536536366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_25
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6868bc68f22cf9f469f930e5728279b6
+      internalID: 299959960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_26
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12bf60fba0888f4598c5dd5ff47f317
+      internalID: 428424642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_27
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68293eb3f6b88f4daee50bba6a34c2b
+      internalID: -40480013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_28
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d858fff6d6a88247a960446ccd09d63
+      internalID: 1376833412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_29
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e12af6861a522a47a32a07b164df4a8
+      internalID: -603842783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_30
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673da1644e3c1d0459fe1d1f1cd6b3c0
+      internalID: -63734694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_31
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2269.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c86238975ee33c4cb1ff26cbd62399a
+      internalID: -557154486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc746d711c6aef4cbca89fcfff127a2
+      internalID: 1554508597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a949d4e8cea14c9fbf4069a9b9a3f
+      internalID: 1531707863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633cab36fe80b9f4a9f59cd93a4ad8e7
+      internalID: 1886168696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fe16e736eeea64ebae94971f4832a9
+      internalID: 692948341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_36
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c3a8671ab2fa242a5ebda6610097a1
+      internalID: -2128382394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_37
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb97ea255092f2489e518c15cf6e376
+      internalID: -44495413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_38
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dd6d5ad3a95e942ba715e72468ec07
+      internalID: -427089776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_39
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131877eda805a941b5de18e6f6ec416
+      internalID: 1552246178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_40
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcdf32058a94f84b99d028483e379d9
+      internalID: -1747770662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_41
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8434f942efdf2a74087a252801d52088
+      internalID: 1153995350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_42
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e9f7cf80f6455478b47a320ccf4e47
+      internalID: 1323405075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_43
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a4da33d72b92a4081413d3b2f2b4c9
+      internalID: 66185118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_44
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2043.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e33a87711a7b5469a0a2701f2a6c7e
+      internalID: -1724742858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25298b5fc217be047b378fa9ea8fca1e
+      internalID: 2129228939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ded2e22bbd811243825ea9e56a9a3e5
+      internalID: -1205248801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_47
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0475aa8dbd9c9740bd74c5b5487e47a
+      internalID: -1617412548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_48
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dc0139adb099f4b80d7c20cb77abeb
+      internalID: -1066542267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_49
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5361ea6322732fe448d271535ecfac81
+      internalID: 530052402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_50
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d545d8aa2d06d449acc4912c044cc76
+      internalID: -1192888001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_51
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb5d7fbd7bb69e478db5132a8ddc886
+      internalID: 71669555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_52
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920e9f0e43115634babec19bc8d33cba
+      internalID: -93667134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_53
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef261893ea5f95439c58b48e55a8e1e
+      internalID: 1778056152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_54
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4283c6bd531a44f9b662b1016a2f0c
+      internalID: -2084400991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_55
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1817.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c6b6d3b7ea344bbf2583259d10d2b
+      internalID: -1891018670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a1cc8ff117aa4280fe0d57890e31a
+      internalID: -1876041038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_57
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7326dbd7c4fd74282e71952306bbfe
+      internalID: 2128260470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_58
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84553016a29a6704395b1dc9b4c2e28c
+      internalID: -990048066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_59
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaffe529326acd647b2f13c19c7439e8
+      internalID: 1861167547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_60
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6d045ca2e496a4ca2d86fedc3a9056
+      internalID: -1289624361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_61
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1591.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb2bf8188b23a2499e274c30b8f8d91
+      internalID: -678664382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87293d7c4676e1a43ba903afb495ee0e
+      internalID: 418544952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa1c4e259d9d634d8d9ba2dfb99696c
+      internalID: -279872845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_64
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0879250f1e9844bbb843d6b1a7999f
+      internalID: 1060382180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_65
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea9c8ff3afdee45a83903e4622c6c9
+      internalID: 1966652852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_66
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922a937726ee75429dd1c9eca492d21
+      internalID: 780535322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_67
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581b9928214b52a4ca4faf89dcc814c0
+      internalID: -1169127406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_68
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ef00aea800fa3448ec7e7bfb8b0f19
+      internalID: 1235060116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_69
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b205e3f7d91da34f88f452c005cbf58
+      internalID: -1855847677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_70
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793a6dc7f20471449ba1879e16812669
+      internalID: 285493192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_71
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a43364c3ffc52499056996fba52d45
+      internalID: -963645683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_72
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1365.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e47d8a44dc8f714781cc72ed7a31bac
+      internalID: 233782953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd12767ae5e7e54eb1746182b40060d
+      internalID: 1526538403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_74
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c284753af8eac554a9fbc0996c7116c1
+      internalID: 826717167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_75
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbce9433439d924abef73c7ed5e5f05
+      internalID: 1851520536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_76
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea8218ee3a748f4c9faed3136aa715e
+      internalID: 170818111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_77
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810d16b6d47533b498a0f8d9392a2e7c
+      internalID: 986465035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_78
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4eec97eb85a049a9e2c3d0adcc18f
+      internalID: 567742894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_79
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f188ac9384ae944a8973388fadec4d
+      internalID: -503725606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_80
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee46ee4bc06be445a411f7711e82484
+      internalID: 2020804329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_81
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7a738838fef2b42b1df7e53a8003ee
+      internalID: -1139609781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_82
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785dbb26090be2f40ab60332cc0a6a82
+      internalID: -881192977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_83
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc3c9f7f3237534086d01286e357512
+      internalID: -1792120191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_84
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c190add31e3d4744abac7f89e087dd9
+      internalID: 96765726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_85
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1139.2307
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb682072d9d0b434597f3f5c2f20adc3
+      internalID: 352475345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_86
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b44186eca8efe04c9c843fa7dd0c82a
+      internalID: -426240601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_87
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d59cca10d045a45a362d176df8918a
+      internalID: 1539559508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_88
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd7dc2928ff0f4458dd13ada18b6e9d
+      internalID: -1092597969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_89
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c72b3cccb00a4a47b214a583e86c93c
+      internalID: -1596611487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_90
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae0d760746b3f74ea3d5f3b145944a2
+      internalID: -93294140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_91
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ef8313bfe8c904aa38e2216cc89aab
+      internalID: -96140139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_92
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3386e7a3ec5e39443a9ec142545f7f9a
+      internalID: -278076245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_93
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9172122277f0614099aa2798f1f72c7
+      internalID: 1749239403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_94
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a93e7867fd792e46aa0a09355f45c78
+      internalID: 1279401081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_95
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 913.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fb244c48d84204b9da737ae384c3db
+      internalID: -876496147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8f231900f33cb47873f96c9d97d969
+      internalID: 1800999491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_97
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2390f25359aafa46a43b0a4637adc88
+      internalID: -294378030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_98
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7865f38e996dc64e9afbff8f8f09f88
+      internalID: -2061174997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_99
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b352e0757acb91349b488dc434e37893
+      internalID: 900962446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_100
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3009a99a8bac3e844b61ba284dd3fd93
+      internalID: 1686740783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_101
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28429f6427a044a46b364490e7ab3b98
+      internalID: -496420328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_102
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7d2a421e268dd489c76e49f3a90dc5
+      internalID: -711120990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_103
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7274b9345a7794981d769e928512bc
+      internalID: 1626037418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_104
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b55648ceb4a36849889d436dc42c588
+      internalID: 420959631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_105
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210ceaf3d734c624dac0252536d259d1
+      internalID: 85887149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_106
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 687.2308
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9d833b27bb0f242a3adf257011ce9f
+      internalID: -1989299419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_107
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771cd21474ee7254d9e917c4f1d335ff
+      internalID: 215114066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_108
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b286db0415a83b041af3b45985188a07
+      internalID: 362491203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_109
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595fd00d7ab4bcb4190a824eac96cd73
+      internalID: -719919703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_110
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6727040ae3dbd624cb68b30693ea195e
+      internalID: -460613003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_111
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5571b521a5e7304baca4a0c9142d4f3
+      internalID: 1625492784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_112
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296ed5bcde11a304db680cb9fb69d4f7
+      internalID: -151500271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_113
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0c4ec5616be694d92619b1d24a5b21
+      internalID: -245738114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_114
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c5d86d82b79c4f9b329ea4e711cfc
+      internalID: 1382813700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_115
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f794a5f627eb142aa17cb8d186ba8c
+      internalID: 1733547340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_116
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 461.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c648d5044d8dff43bb5d9985ead58ca
+      internalID: -534629115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b700efb5be0f746894f21e93bd35ad
+      internalID: 262117789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_118
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb58231ae9387e4ba15f17cea87dde9
+      internalID: 42373311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_119
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8c2d212061b4c4792c440027db3c6e
+      internalID: 1251909263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_120
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3a17dee774d04da0703f45c008791
+      internalID: -390786387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_121
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e466e7caae1a0e4cae2fe4d83b1a7a7
+      internalID: -2138252795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_122
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6270f3ede996eaf42a6c60bde70c20b6
+      internalID: -1308815724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_123
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651d6274a17ae544a90a3186b29eb38
+      internalID: -2109243405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_124
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ede501968d4744ba01261c6488a293
+      internalID: -1215026205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_125
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ab56fe6140a834eb8bdc8252b956c3
+      internalID: 90981792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_126
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 235.23077
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bd3613a2ed0374ba0eada4ed6f978f
+      internalID: 1030912582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_127
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e2352f26564ff4697d33a650bc7a64
+      internalID: 1919241050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_128
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5749bc35e8760418b7a33e5502a37c
+      internalID: 421624735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_129
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e26d3d68f37c44f999f39056afc7ec
+      internalID: 1815851514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_130
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8804f361fc2894e4abf03960c2c5de2d
+      internalID: -664334751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_131
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff09118f830d54489780cb12b625591
+      internalID: -1478033763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_132
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11b445e1a4fa64ca9394d49251a3a7
+      internalID: 1682958572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - Hanging Plants_133
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 9.230774
+        width: 157.53847
+        height: 226.76923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697fa7f49958ec643b7e48d29498a2ce
+      internalID: 501468417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +2940,141 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mossy - Hanging Plants_79: -503725606
+      Mossy - Hanging Plants_25: 299959960
+      Mossy - Hanging Plants_78: 567742894
+      Mossy - Hanging Plants_127: 1919241050
+      Mossy - Hanging Plants_102: -711120990
+      Mossy - Hanging Plants_107: 215114066
+      Mossy - Hanging Plants_128: 421624735
+      Mossy - Hanging Plants_4: -685834934
+      Mossy - Hanging Plants_12: 889658285
+      Mossy - Hanging Plants_51: 71669555
+      Mossy - Hanging Plants_133: 501468417
+      Mossy - Hanging Plants_50: -1192888001
+      Mossy - Hanging Plants_83: -1792120191
+      Mossy - Hanging Plants_101: -496420328
+      Mossy - Hanging Plants_48: -1066542267
+      Mossy - Hanging Plants_81: -1139609781
+      Mossy - Hanging Plants_126: 1030912582
+      Mossy - Hanging Plants_93: 1749239403
+      Mossy - Hanging Plants_44: -1724742858
+      Mossy - Hanging Plants_108: 362491203
+      Mossy - Hanging Plants_90: -93294140
+      Mossy - Hanging Plants_77: 986465035
+      Mossy - Hanging Plants_30: -63734694
+      Mossy - Hanging Plants_106: -1989299419
+      Mossy - Hanging Plants_67: -1169127406
+      Mossy - Hanging Plants_32: 1554508597
+      Mossy - Hanging Plants_15: -1461380889
+      Mossy - Hanging Plants_63: -279872845
+      Mossy - Hanging Plants_45: 2129228939
+      Mossy - Hanging Plants_59: 1861167547
+      Mossy - Hanging Plants_80: 2020804329
+      Mossy - Hanging Plants_49: 530052402
+      Mossy - Hanging Plants_62: 418544952
+      Mossy - Hanging Plants_104: 420959631
+      Mossy - Hanging Plants_100: 1686740783
+      Mossy - Hanging Plants_69: -1855847677
+      Mossy - Hanging Plants_121: -2138252795
+      Mossy - Hanging Plants_2: 1928202078
+      Mossy - Hanging Plants_98: -2061174997
+      Mossy - Hanging Plants_16: 1076184317
+      Mossy - Hanging Plants_123: -2109243405
+      Mossy - Hanging Plants_119: 1251909263
+      Mossy - Hanging Plants_84: 96765726
+      Mossy - Hanging Plants_61: -678664382
+      Mossy - Hanging Plants_113: -245738114
+      Mossy - Hanging Plants_5: 1119414395
+      Mossy - Hanging Plants_60: -1289624361
+      Mossy - Hanging Plants_52: -93667134
+      Mossy - Hanging Plants_56: -1876041038
+      Mossy - Hanging Plants_64: 1060382180
+      Mossy - Hanging Plants_71: -963645683
+      Mossy - Hanging Plants_0: 34448936
+      Mossy - Hanging Plants_35: 692948341
+      Mossy - Hanging Plants_41: 1153995350
+      Mossy - Hanging Plants_95: -876496147
+      Mossy - Hanging Plants_29: -603842783
+      Mossy - Hanging Plants_38: -427089776
+      Mossy - Hanging Plants_73: 1526538403
+      Mossy - Hanging Plants_116: -534629115
+      Mossy - Hanging Plants_88: -1092597969
+      Mossy - Hanging Plants_6: -175531531
+      Mossy - Hanging Plants_66: 780535322
+      Mossy - Hanging Plants_24: 1536536366
+      Mossy - Hanging Plants_118: 42373311
+      Mossy - Hanging Plants_82: -881192977
+      Mossy - Hanging Plants_19: 973395787
+      Mossy - Hanging Plants_10: 1473015019
+      Mossy - Hanging Plants_74: 826717167
+      Mossy - Hanging Plants_40: -1747770662
+      Mossy - Hanging Plants_47: -1617412548
+      Mossy - Hanging Plants_1: 999718428
+      Mossy - Hanging Plants_54: -2084400991
+      Mossy - Hanging Plants_91: -96140139
+      Mossy - Hanging Plants_57: 2128260470
+      Mossy - Hanging Plants_120: -390786387
+      Mossy - Hanging Plants_85: 352475345
+      Mossy - Hanging Plants_131: -1478033763
+      Mossy - Hanging Plants_13: 1165739565
+      Mossy - Hanging Plants_7: -1818748488
+      Mossy - Hanging Plants_103: 1626037418
+      Mossy - Hanging Plants_72: 233782953
+      Mossy - Hanging Plants_89: -1596611487
+      Mossy - Hanging Plants_129: 1815851514
+      Mossy - Hanging Plants_46: -1205248801
+      Mossy - Hanging Plants_114: 1382813700
+      Mossy - Hanging Plants_130: -664334751
+      Mossy - Hanging Plants_132: 1682958572
+      Mossy - Hanging Plants_92: -278076245
+      Mossy - Hanging Plants_33: 1531707863
+      Mossy - Hanging Plants_42: 1323405075
+      Mossy - Hanging Plants_115: 1733547340
+      Mossy - Hanging Plants_94: 1279401081
+      Mossy - Hanging Plants_65: 1966652852
+      Mossy - Hanging Plants_97: -294378030
+      Mossy - Hanging Plants_99: 900962446
+      Mossy - Hanging Plants_23: 948202782
+      Mossy - Hanging Plants_17: 1838547937
+      Mossy - Hanging Plants_39: 1552246178
+      Mossy - Hanging Plants_58: -990048066
+      Mossy - Hanging Plants_75: 1851520536
+      Mossy - Hanging Plants_96: 1800999491
+      Mossy - Hanging Plants_86: -426240601
+      Mossy - Hanging Plants_87: 1539559508
+      Mossy - Hanging Plants_105: 85887149
+      Mossy - Hanging Plants_34: 1886168696
+      Mossy - Hanging Plants_11: 1182769878
+      Mossy - Hanging Plants_20: 1164635704
+      Mossy - Hanging Plants_125: 90981792
+      Mossy - Hanging Plants_31: -557154486
+      Mossy - Hanging Plants_22: -870064637
+      Mossy - Hanging Plants_111: 1625492784
+      Mossy - Hanging Plants_109: -719919703
+      Mossy - Hanging Plants_117: 262117789
+      Mossy - Hanging Plants_68: 1235060116
+      Mossy - Hanging Plants_70: 285493192
+      Mossy - Hanging Plants_124: -1215026205
+      Mossy - Hanging Plants_43: 66185118
+      Mossy - Hanging Plants_8: 694140524
+      Mossy - Hanging Plants_37: -44495413
+      Mossy - Hanging Plants_9: 1869909132
+      Mossy - Hanging Plants_27: -40480013
+      Mossy - Hanging Plants_21: -416712861
+      Mossy - Hanging Plants_76: 170818111
+      Mossy - Hanging Plants_36: -2128382394
+      Mossy - Hanging Plants_14: -1786612916
+      Mossy - Hanging Plants_112: -151500271
+      Mossy - Hanging Plants_122: -1308815724
+      Mossy - Hanging Plants_26: 428424642
+      Mossy - Hanging Plants_110: -460613003
+      Mossy - Hanging Plants_18: -176915097
+      Mossy - Hanging Plants_53: 1778056152
+      Mossy - Hanging Plants_3: 1993559296
+      Mossy - Hanging Plants_28: 1376833412
+      Mossy - Hanging Plants_55: -1891018670
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
