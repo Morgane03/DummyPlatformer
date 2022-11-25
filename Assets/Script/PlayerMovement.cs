@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     int remainingNumberOfJumps = 0;
     public float JumpForce = 9.0f;
     Animator animator = null;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
             Renderer.flipX = movement.x < 0;
         }
 
+     
+
     }
     public void OnJump(InputValue jumpValue)
     {
@@ -50,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetTrigger("AsJump");
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
-
+       
     }
 
     public void OnMove(InputValue moveValue)
@@ -58,6 +62,8 @@ public class PlayerMovement : MonoBehaviour
         movement = moveValue.Get<Vector2>();
 
     }
+
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.GetContact(0).normal.y > 0.8f)
@@ -65,4 +71,5 @@ public class PlayerMovement : MonoBehaviour
             remainingNumberOfJumps = maxNumberOfJumps;
         }
     }
+
 }

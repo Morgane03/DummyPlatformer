@@ -1,5 +1,5 @@
 {
-    "name": "eart_coding1_12.10.22",
+    "name": "PlayerController",
     "maps": [
         {
             "name": "Player",
@@ -37,6 +37,15 @@
                     "type": "Value",
                     "id": "b618a240-526b-4ba7-b544-483b21d667c0",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Dash",
+                    "type": "Value",
+                    "id": "4da18b60-75d1-4228-86c8-10eadba90047",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -271,6 +280,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "321bfc2b-6dba-4285-90da-09d84e928324",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
