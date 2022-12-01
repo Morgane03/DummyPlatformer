@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     int remainingNumberOfJumps = 0;
     public float JumpForce = 9.0f;
     Animator animator = null;
-
+    internal static object instance;
 
     void Start()
     {
