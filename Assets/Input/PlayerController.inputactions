@@ -43,9 +43,9 @@
                 },
                 {
                     "name": "Dash",
-                    "type": "Value",
-                    "id": "4da18b60-75d1-4228-86c8-10eadba90047",
-                    "expectedControlType": "",
+                    "type": "Button",
+                    "id": "b9d5698a-4d15-4654-bbf8-e5979ddd6de7",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -285,7 +285,7 @@
                 },
                 {
                     "name": "",
-                    "id": "321bfc2b-6dba-4285-90da-09d84e928324",
+                    "id": "1b7bb19f-112a-4b74-b7e0-2e8f9e5c92de",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",

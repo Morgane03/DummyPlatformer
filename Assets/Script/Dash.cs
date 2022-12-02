@@ -5,75 +5,68 @@ using UnityEngine.InputSystem;
 
 public class Dash : MonoBehaviour
 {
-    public float Dashspeed;
-    public int MaxNumberOfDash = 3;
+    public float DashSpeed;
+
+    public int MaxNumberOfDash = 4;
+    private int NumberOfDash = 0;
     Rigidbody2D rb;
-    float DoubleTap;
-    KeyCode LastKeyCode;
-
-    private float DashCount;
-    public float StartDashCount;
-    private int side;
-
+    public float DashPower;
+    public float DashTime;
+    public float DashWait = 1f;
+    bool IsDash = true;
 
     void Start()
     {
-        DashCount = StartDashCount;
+        rb = GetComponent<Rigidbody2D>();
+        
+
     }
     void Update()
     {
-        //dash
-
-        if (side == 0)
+        if (NumberOfDash == MaxNumberOfDash)
         {
+            IsDash = false;
+           
+        }
+        if (NumberOfDash > MaxNumberOfDash)
+        {
+            IsDash = true;
+        }
+
+        if (IsDash == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                rb.velocity = new Vector3( );
+                NumberOfDash = NumberOfDash + 1;
+                
+            }
             if (Input.GetKeyDown(KeyCode.A))
             {
-                if (DoubleTap > Time.time && LastKeyCode == KeyCode.A)
-                {
-                    side = 1;
-                }
-                else
-                {
-                    DoubleTap = Time.time + 0.5f;
-                }
-                LastKeyCode = KeyCode.A;
+
+                NumberOfDash = NumberOfDash + 1;
+
             }
-            else if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Z))
             {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    if (DoubleTap > Time.time && LastKeyCode == KeyCode.E)
-                    {
-                        side = 2;
-                    }
-                    else
-                    {
-                        DoubleTap = Time.time + 0.5f;
-                    }
-                    LastKeyCode = KeyCode.E;
-                }
+
+                NumberOfDash = NumberOfDash + 1;
+
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+
+
+                NumberOfDash = NumberOfDash + 1;
+
             }
             else
             {
-                if (DashCount <= 0)
-                {
-                    side = 0;
-                    DashCount = StartDashCount;
-                    rb.velocity = Vector2.zero;
-                }
-                else
-                {
-                    DashCount = Time.deltaTime;
-                    if (side == 1)
-                    {
-                        rb.velocity = Vector2.left * Dashspeed;
-                    }
-                    else if (side == 2)
-                    {
-                        rb.velocity = Vector2.right * Dashspeed;
-                    }
-                }
+                return;
             }
         }
+
+
+
     }
 }
