@@ -597,7 +597,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -7140263257039140897, guid: d2a61b8065145bb4fb985817b8dc5378, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d2a61b8065145bb4fb985817b8dc5378, type: 3}
 --- !u!1 &165153696
 GameObject:
@@ -11213,7 +11214,8 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1692633985907963027, guid: 9e3f3288158cfd74987e94065575356a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9e3f3288158cfd74987e94065575356a, type: 3}
 --- !u!1 &1083381349
 GameObject:
@@ -79656,7 +79658,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Niveau2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1547183252
@@ -108543,19 +108545,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1328553013}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Niveau3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1831583993

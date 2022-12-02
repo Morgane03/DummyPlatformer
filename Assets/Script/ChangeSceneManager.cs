@@ -35,11 +35,7 @@ public class ChangeSceneManager : MonoBehaviour
     {
 
         if(text != null)
-            text.text = SceneManager.GetActiveScene().buildIndex + "/" + (SceneManager.sceneCountInBuildSettings - 1);
+            text.text = SceneManager.GetActiveScene().name;
     }
 
-    public void ChangeScene(int numberSkip)
-    {
-        SceneManager.LoadScene(Mathf.Clamp((SceneManager.GetActiveScene().buildIndex + numberSkip), 0, SceneManager.sceneCountInBuildSettings - 1));
-    }
 }

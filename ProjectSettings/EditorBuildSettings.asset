@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Village.unity
     guid: 79bbf96a4b3edec4583272339446b60e
+  - enabled: 1
+    path: Assets/Scenes/Niveau2.unity
+    guid: 439d510d654cccd469f3ec15f6bf4779
+  - enabled: 1
+    path: Assets/Scenes/Niveau3.unity
+    guid: 07d7293ff8dd1164ca5d6fef2624ca10
+  - enabled: 1
+    path: Assets/Scenes/Niveau4.unity
+    guid: 53da1329085c08f409b2b12b0d0c9855
   m_configObjects: {}
