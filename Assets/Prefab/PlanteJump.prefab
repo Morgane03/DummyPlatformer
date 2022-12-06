@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 4397784272118758946}
   - component: {fileID: -8943955664572793739}
   - component: {fileID: -2413331137534136494}
+  - component: {fileID: 391629609}
+  - component: {fileID: 391629604}
   m_Layer: 0
   m_Name: PlanteJump
-  m_TagString: Untagged
+  m_TagString: PlanteJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4397784272118758947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.26594785, y: 0.2556053, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 6601c1223a9fec24d8c961949c95573f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -144,21 +146,21 @@ PolygonCollider2D:
       - {x: 1.5999999, y: 0.39999998}
       - {x: 1.54, y: 0.51}
       - {x: 1.42, y: 0.68}
-      - {x: 1.23, y: 0.85999995}
-      - {x: 1.11, y: 0.94}
-      - {x: 0.95, y: 1.02}
-      - {x: 0.7, y: 1.03}
-      - {x: 0.58, y: 1.03}
-      - {x: 0.47, y: 1.09}
-      - {x: 0.22999999, y: 1.09}
-      - {x: 0.099999994, y: 1.06}
-      - {x: 0.04, y: 1.02}
-      - {x: -0.19999999, y: 1.09}
-      - {x: -0.45999998, y: 1.09}
-      - {x: -0.64, y: 1.01}
-      - {x: -0.71, y: 1.02}
-      - {x: -0.96, y: 1.02}
-      - {x: -1.1899999, y: 0.9}
+      - {x: 1.232983, y: 0.81823736}
+      - {x: 1.112983, y: 0.9042036}
+      - {x: 1.0424742, y: 0.9364749}
+      - {x: 0.97500545, y: 0.9364674}
+      - {x: 0.8703734, y: 0.93382406}
+      - {x: 0.73549044, y: 0.93189895}
+      - {x: 0.57006645, y: 0.93786514}
+      - {x: 0.3773094, y: 0.9476633}
+      - {x: 0.21818975, y: 0.95388055}
+      - {x: -0.029966772, y: 0.94084823}
+      - {x: -0.16766232, y: 0.93488204}
+      - {x: -0.5309862, y: 0.93825424}
+      - {x: -0.79763407, y: 0.91289735}
+      - {x: -0.97765845, y: 0.9102174}
+      - {x: -1.1064159, y: 0.91357124}
       - {x: -1.4499999, y: 0.65999997}
       - {x: -1.55, y: 0.5}
       - {x: -1.63, y: 0.32999998}
@@ -180,3 +182,42 @@ PolygonCollider2D:
       - {x: 0.53999996, y: -1.04}
       - {x: 0.69, y: -1.01}
       - {x: 0.85999995, y: -0.91999996}
+--- !u!61 &391629609
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397784272118758947}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.022470117, y: 1.0800323}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2928765, y: 0.21777844}
+  m_EdgeRadius: 0
+--- !u!114 &391629604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397784272118758947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfee25f83bac26846adab6ea75f37c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMouvement: {fileID: 0}
