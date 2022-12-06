@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Transform playerSpawn;
+
+    private void Awake()
     {
-        
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.CompareTag("Player")) // si collision verifier si le tag est player
+        {
+            // position du playerspawn est maintenant celle lié au checkpont
+            playerSpawn.position = transform.position;
+            Destroy(gameObject); // eviter que  le joueur retourne en arriere meurt et reapparait à un checkpoint plus ancien car retouché
+            // si on met un sprit remplacer gameObject par box collider
+        }
     }
 }
