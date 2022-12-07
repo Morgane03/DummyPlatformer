@@ -7929,7 +7929,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Niveau4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &578023059
@@ -72195,7 +72195,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.733964
+  orthographic size: 11.62329
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
