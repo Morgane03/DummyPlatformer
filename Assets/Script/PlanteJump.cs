@@ -16,7 +16,7 @@ public class PlanteJump : MonoBehaviour
 
    IEnumerator JumpPlante()
     {
-        playerMouvement.JumpForce = 10;
+        playerMouvement.JumpForce = 13;
         yield return new WaitForSeconds(2);
         playerMouvement.JumpForce = 8;
     }

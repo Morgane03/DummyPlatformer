@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeathZone : MonoBehaviour
 {
     private Transform playerSpawn;
+    public bool DeadWait = false;
 
     private void Awake()
     {
@@ -13,9 +14,17 @@ public class DeathZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             collision.transform.position = playerSpawn.position;
+            StartCoroutine(DeadThellerStart());
         }
+    }
+
+    IEnumerator DeadThellerStart()
+    {
+        DeadWait = true;
+        yield return new WaitForSeconds(1);
+        DeadWait = false;
     }
 }
