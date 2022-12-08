@@ -11,22 +11,26 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
 
+    public Animator animator;
+
     private Queue<string> sentences;
 
     private void Awake()
     {
+        instance = this;
         if(instance == null)
         {
             Debug.LogWarning(" Il y a plus d une instance de dialogueManager dans la scene");
             return;
         }
 
-        instance = this;
         sentences = new Queue<string>();
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        //animator.SetBool("isOpen", true);
+
         nameText.text = dialogue.name;
         sentences.Clear();
 
@@ -38,21 +42,35 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
-    void DisplayNextSentence()
-    {
+    public void DisplayNextSentence()
+    {     
+        string sentence = sentences.Dequeue();
         if(sentences.Count == 0)
         {
             EndDialogue();
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
+
+    // Coroutine pour afficher caractère par caractère
+    IEnumerator TypeSentence(string sentence)
+    {
+        dialogueText.text = "";
+        foreach(char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 
     void EndDialogue()
     {
         Debug.Log("Fin du dialogue");
+        animator.SetBool("isOpen", false);
     }
 
 }
