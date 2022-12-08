@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; //pour utiliser les text dans unity
+
 
 public class DeadTeller : MonoBehaviour
 {
-    public DeathZone deathZone;
     public string Dead;
-    public Text text;
-    void Start()
+
+    public TMPro.TMP_Text text;
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (deathZone.DeadWait == true) //appel le bool DeadWait pour ajouter une mort au conteur
+        if (collision.CompareTag("Kill"))
         {
-            Dead = Dead + 1; 
-            text.text = Dead;
+            text.text = Dead + 1;
         }
     }
 }

@@ -33,9 +33,11 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         DontDestroyOnLoad(gameObject);
     }
-
+   
     void Update()
     {
+        float WolkLeftRight = Mathf.Abs(rb.velocity.x); //permet de jouer l'animation du joueur lorsqu'il va à gauche
+
         if (rb == null)
         {
             return;
@@ -44,35 +46,39 @@ public class PlayerMovement : MonoBehaviour
         if (!IsDash) //Si Is Dash = false
         {
             rb.velocity = new Vector2(movement.x * speed, rb.velocity.y); // mouvement
-            animator.SetBool("IsWalking", movement.x != 0);
+            animator.SetFloat("Wolk", WolkLeftRight);
         }
         else
         {
             rb.velocity = DashDirection * DashSpeed; //Multiplie la velocity du joueur pour dash
-
+            //animator.SetBool(true);
         }
 
 
         if (movement.x != 0 && Time.timeScale != 0)
         {
             Renderer.flipX = movement.x < 0;
+            animator.SetFloat("Wolk", WolkLeftRight);
         }
+
     }
 
     public void OnDash()
     {
+        
         StartCoroutine(ExecuteDash()); //commencer le Dash      Merci Julien
         NumberOfDash = NumberOfDash + 1; //Ajoute un Dash, si le joueur atteind 3 Dash, il doit attendre 5s
     }
     public void OnJump(InputValue jumpValue)
     {
+        float JumpLeftRight = Mathf.Abs(rb.velocity.x); //permet de jouer l'animation du saut lorsque le joueur va vers la gauche
         float pressed = jumpValue.Get<float>();
         if (rb == null || pressed == 0 || remainingNumberOfJumps == 0)
         {
             return;
         }
         remainingNumberOfJumps--;
-        animator.SetTrigger("AsJump");
+        animator.SetFloat("Jump" , JumpLeftRight);
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
 

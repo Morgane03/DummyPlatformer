@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5345079283037722277}
   m_Layer: 0
   m_Name: DeathZone
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,3 +71,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d5fea448d573a439565c23c2fc3a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeadWait: 0
