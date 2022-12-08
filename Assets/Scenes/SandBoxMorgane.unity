@@ -3619,7 +3619,7 @@ GameObject:
   - component: {fileID: 995280726}
   m_Layer: 0
   m_Name: pnj
-  m_TagString: Untagged
+  m_TagString: InteractUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3641,6 +3641,7 @@ MonoBehaviour:
     sentences:
     - Bonjour
     - Je m'appelle Vidalf
+    - 
   isInRange: 0
 --- !u!4 &995280725
 Transform:
@@ -4118,7 +4119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 719971724}
   dialogueText: {fileID: 338656989}
-  animator: {fileID: 0}
+  animator: {fileID: 2037349897}
 --- !u!114 &1554838664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5462,7 +5463,6 @@ GameObject:
   - component: {fileID: 1754757794}
   - component: {fileID: 1754757796}
   - component: {fileID: 1754757795}
-  - component: {fileID: 1754757797}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -5490,7 +5490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -81}
+  m_AnchoredPosition: {x: -11, y: -304}
   m_SizeDelta: {x: -306.6118, y: -225.1772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754757795
@@ -5531,26 +5531,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754757793}
   m_CullTransparentMesh: 1
---- !u!95 &1754757797
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754757793}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 80297fbc33ead7549ab931d3df003876, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1791552224
 GameObject:
   m_ObjectHideFlags: 0
@@ -7721,8 +7701,8 @@ GameObject:
   - component: {fileID: 2037349893}
   - component: {fileID: 2037349897}
   m_Layer: 5
-  m_Name: Canvas (1)
-  m_TagString: Untagged
+  m_Name: DialogueUI
+  m_TagString: InteractUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

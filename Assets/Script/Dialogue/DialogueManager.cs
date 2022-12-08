@@ -29,7 +29,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        //animator.SetBool("isOpen", true);
+        animator.SetBool("isOpen", true);
 
         nameText.text = dialogue.name;
         sentences.Clear();
@@ -63,14 +63,14 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 
     void EndDialogue()
-    {
-        Debug.Log("Fin du dialogue");
+    {   
         animator.SetBool("isOpen", false);
+        Debug.Log("Fin du dialogue");
     }
 
 }

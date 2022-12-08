@@ -30,6 +30,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Niveau2.unity
     guid: 07d7293ff8dd1164ca5d6fef2624ca10
   - enabled: 1
+    path: Assets/Scenes/Niveau3.unity
+    guid: 2490d554f63867747ab1aeb67ee1bc46
+  - enabled: 1
     path: Assets/Scenes/Niveau4.unity
     guid: 53da1329085c08f409b2b12b0d0c9855
+  - enabled: 1
+    path: Assets/Scenes/Niveau5.unity
+    guid: c02fe380849539443a388b6df4aa79da
+  - enabled: 1
+    path: Assets/Scenes/Niveau6.unity
+    guid: 18bdc32f7aff27746926346dad7e0d96
+  - enabled: 1
+    path: Assets/Scenes/Niveau7.unity
+    guid: 2a05e20a5f171ba4a8c81a58302de6b0
+  - enabled: 1
+    path: Assets/Scenes/Niveau8.unity
+    guid: 93ae0d03d3023cc4884e3a84c172c814
+  - enabled: 1
+    path: Assets/Scenes/Niveau9.unity
+    guid: 5b8116f8a4127084ebcb95e71caf1484
+  - enabled: 1
+    path: Assets/Scenes/Niveau10.unity
+    guid: 7a3269637b5a244458ddbe61c6e46f86
+  - enabled: 1
+    path: Assets/Scenes/VillageEnd.unity
+    guid: 6e54212e9aa842c4fa11814fd9b59197
   m_configObjects: {}

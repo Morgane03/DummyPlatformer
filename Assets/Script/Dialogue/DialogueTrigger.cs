@@ -9,7 +9,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public bool isInRange;
 
-    private Text interactUI;
+    //private Text interactUI;
 
     private void Awake()
     {
@@ -30,7 +30,7 @@ public class DialogueTrigger : MonoBehaviour
        if(collision.CompareTag("Player"))
        {
             isInRange = true;
-            // interactUI.enabled = true;
+            //interactUI.enabled = true;
        }
     }
 
@@ -39,7 +39,7 @@ public class DialogueTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isInRange = false;
-            // interactUI.enabled = false;
+            //interactUI.enabled = false;
         }
     }
 
