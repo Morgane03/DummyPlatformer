@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1072159297417012732}
   - component: {fileID: 1072159297417012735}
-  - component: {fileID: 3527915303415565568}
   - component: {fileID: 1072159297417012706}
   - component: {fileID: 1072159297417012734}
   - component: {fileID: 1072159297417012733}
@@ -90,23 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3527915303415565568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072159297417012728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb86d3eec8d09d74086765e601caa92a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DashSpeed: 5
-  MaxNumberOfDash: 3
-  DashPower: 5
-  DashTime: 50
-  DashWait: 1
 --- !u!114 &1072159297417012706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +107,7 @@ MonoBehaviour:
   DashSpeed: 50
   MaxNumberOfDash: 4
   DashPower: 0
-  DashTime: 0
+  DashTime: 2
 --- !u!50 &1072159297417012734
 Rigidbody2D:
   serializedVersion: 4

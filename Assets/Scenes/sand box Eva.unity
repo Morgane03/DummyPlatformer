@@ -159,11 +159,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5345079283037722276, guid: 3ddfcedaa3c677f4bb4ac94616ad9128, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.68
+      value: -22.2
       objectReference: {fileID: 0}
     - target: {fileID: 5345079283037722276, guid: 3ddfcedaa3c677f4bb4ac94616ad9128, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.92
+      value: -6.78
       objectReference: {fileID: 0}
     - target: {fileID: 5345079283037722276, guid: 3ddfcedaa3c677f4bb4ac94616ad9128, type: 3}
       propertyPath: m_LocalPosition.z
@@ -206,6 +206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1072159297417012706, guid: 59320b782cb34644dad3434addda1207, type: 3}
+      propertyPath: DashSpeed
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1072159297417012728, guid: 59320b782cb34644dad3434addda1207, type: 3}
       propertyPath: m_Name
       value: Player
@@ -512,11 +516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4382460543188941657, guid: d2a61b8065145bb4fb985817b8dc5378, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.08
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 4382460543188941657, guid: d2a61b8065145bb4fb985817b8dc5378, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.42
+      value: -4.17
       objectReference: {fileID: 0}
     - target: {fileID: 4382460543188941657, guid: d2a61b8065145bb4fb985817b8dc5378, type: 3}
       propertyPath: m_LocalPosition.z
@@ -656,8 +660,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778301350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.01, y: -5.23, z: 0}
-  m_LocalScale: {x: 18.39444, y: 0.30211937, z: 1}
+  m_LocalPosition: {x: 6.59, y: -5.4799, z: 0}
+  m_LocalScale: {x: 50.892452, y: 0.8019457, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

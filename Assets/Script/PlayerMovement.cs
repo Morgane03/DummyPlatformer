@@ -14,12 +14,12 @@ public class PlayerMovement : MonoBehaviour
     int remainingNumberOfJumps = 0;
     public float JumpForce = 9.0f;
     Animator animator = null;
+    bool Jump = false;
 
 
-    public float DashSpeed = 50f;
+    public float DashSpeed = 25f;
     public int MaxNumberOfDash = 4;
     private int NumberOfDash = 0;
-    public float DashPower;
     public float DashTime;
     bool IsDash = false;
     private Vector2 DashDirection;
@@ -31,9 +31,8 @@ public class PlayerMovement : MonoBehaviour
         remainingNumberOfJumps = maxNumberOfJumps;
         Renderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        DontDestroyOnLoad(gameObject);
     }
-   
+
     void Update()
     {
         float WolkLeftRight = Mathf.Abs(rb.velocity.x); //permet de jouer l'animation du joueur lorsqu'il va à gauche
@@ -65,20 +64,21 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDash()
     {
-        
+
         StartCoroutine(ExecuteDash()); //commencer le Dash      Merci Julien
         NumberOfDash = NumberOfDash + 1; //Ajoute un Dash, si le joueur atteind 3 Dash, il doit attendre 5s
     }
     public void OnJump(InputValue jumpValue)
     {
-        float JumpLeftRight = Mathf.Abs(rb.velocity.x); //permet de jouer l'animation du saut lorsque le joueur va vers la gauche
+        Jump = true;
+        StartCoroutine(ExecuteJump());
+
         float pressed = jumpValue.Get<float>();
         if (rb == null || pressed == 0 || remainingNumberOfJumps == 0)
         {
             return;
         }
         remainingNumberOfJumps--;
-        animator.SetFloat("Jump" , JumpLeftRight);
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
 
@@ -108,15 +108,27 @@ public class PlayerMovement : MonoBehaviour
         if (NumberOfDash < MaxNumberOfDash)
         {
             IsDash = true;
+            animator.SetBool("IsDash", true);
             DashDirection = movement; //sauvegarde du mouvement actuel du joueur pour continuer a dash même en ayant lacher le bouton
             yield return new WaitForSeconds(0.5f); //temps du Dash 
             IsDash = false; //fin du Dash
+            animator.SetBool("IsDash", false);
         }
 
         if (NumberOfDash == MaxNumberOfDash) //Si le joueur a atteind ses 3 dash, il doit attendre 5s avant de dash a nouveau
         {
             yield return new WaitForSeconds(5);
+            NumberOfDash = 0;
         }
     }
-
+    IEnumerator ExecuteJump()
+    {
+        if (Jump)
+        {
+            animator.SetBool("Jump", true);
+            yield return new WaitForSeconds(2);
+            Jump = false;
+            animator.SetBool("Jump", false);
+        }
+    }
 }

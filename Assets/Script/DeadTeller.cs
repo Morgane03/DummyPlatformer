@@ -16,3 +16,4 @@ public class DeadTeller : MonoBehaviour
         }
     }
 }
+//playerpref.get string --> garder en mémoire 
