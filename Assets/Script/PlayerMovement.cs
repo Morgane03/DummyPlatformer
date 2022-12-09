@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = DashDirection * DashSpeed; //Multiplie la velocity du joueur pour dash
-            //animator.SetBool(true);
+            
         }
 
 
@@ -126,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
         if (Jump)
         {
             animator.SetBool("Jump", true);
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             Jump = false;
             animator.SetBool("Jump", false);
         }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1072159297417012733}
   - component: {fileID: 1072159297417012707}
   - component: {fileID: 8129495667797107318}
+  - component: {fileID: 222137017}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1072159297417012728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.4065, y: 0.415, z: 0}
-  m_LocalScale: {x: 1.6663558, y: 1.5247778, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,9 +105,8 @@ MonoBehaviour:
   speed: 5
   maxNumberOfJumps: 2
   JumpForce: 8
-  DashSpeed: 50
+  DashSpeed: 25
   MaxNumberOfDash: 4
-  DashPower: 0
   DashTime: 2
 --- !u!50 &1072159297417012734
 Rigidbody2D:
@@ -259,7 +259,21 @@ PolygonCollider2D:
       - {x: -0.29999998, y: -1.35}
       - {x: -0.2965644, y: -1.4300402}
       - {x: -0.20066467, y: -1.4317054}
-      - {x: -0.13019416, y: -1.4283653}
-      - {x: -0.099999994, y: -1.18}
-      - {x: 0.14999999, y: -1.22}
+      - {x: -0.13019416, y: -1.4304019}
+      - {x: -0.07432136, y: -1.4311935}
+      - {x: 0.057526007, y: -1.4296077}
       - {x: 0.1484765, y: -1.4299798}
+--- !u!114 &222137017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072159297417012728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb00c319875f5e4594cbb0e4cf0c885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dead: 
+  text: {fileID: 0}

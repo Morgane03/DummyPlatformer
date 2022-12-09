@@ -5,7 +5,8 @@ using UnityEngine;
 public class DeathZone : MonoBehaviour
 {
     private Transform playerSpawn;
-    public bool DeadWait = false; 
+    public bool DeadWait = false;
+    
 
     private void Awake()
     {
@@ -17,7 +18,6 @@ public class DeathZone : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.transform.position = playerSpawn.position;
-           
         }
     }
 }

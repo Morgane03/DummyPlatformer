@@ -8,6 +8,9 @@ TagManager:
   - PlanteJump
   - Kill
   - InteractUI
+  - Fall
+  - PlateformSpawn
+  - Stop
   layers:
   - Default
   - TransparentFX

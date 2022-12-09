@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class PlatformeFall : MonoBehaviour
 {
-    Rigidbody2D rb;
-    private Transform playerSpawn;
-    private void Awake()
+    [SerializeField]Rigidbody2D rb;
+    private Vector3 StartPosition;
+
+    private void Start()
     {
-        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
+        StartPosition = transform.position;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Player"))
         {
             rb.gravityScale = 1;
         }
-
-        if (collision.CompareTag("Kill"))
+        
+        if (collision.CompareTag("Stop"))
         {
-            collision.transform.position = playerSpawn.position;
-
+            rb.gravityScale = 0;
+            rb.velocity = Vector2.zero;
+            transform.position = StartPosition;
         }
     }
-    
 }
