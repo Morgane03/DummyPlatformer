@@ -5,14 +5,19 @@ using UnityEngine;
 
 public class DeadTeller : MonoBehaviour
 {
-    public string Dead;
+    public int number;
+    
 
     public TMPro.TMP_Text text;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Kill"))
         {
-            text.text = Dead + 1;
+           if (number >= 0)
+            {
+                number++;
+                text.text = number.ToString();
+            }
         }
     }
 }
