@@ -23,10 +23,11 @@ public class PlayerMovement : MonoBehaviour
     public float DashTime;
     bool IsDash = false;
     private Vector2 DashDirection;
-
+    bool dialog;
 
     void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
         remainingNumberOfJumps = maxNumberOfJumps;
         Renderer = GetComponent<SpriteRenderer>();
@@ -50,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = DashDirection * DashSpeed; //Multiplie la velocity du joueur pour dash
-            
+
         }
 
 
@@ -59,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             Renderer.flipX = movement.x < 0;
             animator.SetFloat("Wolk", WolkLeftRight);
         }
-
+        dialog = false;
     }
 
     public void OnDash()
@@ -92,6 +93,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDialogue()
     {
+        dialog = true;
 
     }
 
@@ -103,6 +105,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("dialog");
+        if (dialog) { 
+            if (other.TryGetComponent<DialogueTrigger>(out DialogueTrigger trigger))
+            {
+                trigger.TriggerDialogue();
+            }
+        }
+    }
     IEnumerator ExecuteDash()
     {
         if (NumberOfDash < MaxNumberOfDash)

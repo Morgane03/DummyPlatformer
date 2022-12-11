@@ -9,13 +9,6 @@ public class DialogueTrigger : MonoBehaviour
 
     public bool isInRange;
 
-    //private Text interactUI;
-
-    private void Awake()
-    {
-        //interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -30,7 +23,6 @@ public class DialogueTrigger : MonoBehaviour
        if(collision.CompareTag("Player"))
        {
             isInRange = true;
-            //interactUI.enabled = true;
        }
     }
 
@@ -39,11 +31,10 @@ public class DialogueTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isInRange = false;
-            //interactUI.enabled = false;
         }
     }
 
-    void TriggerDialogue()
+    public void TriggerDialogue()
     {
         DialogueManager.instance.StartDialogue(dialogue);
     }

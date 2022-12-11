@@ -50,7 +50,7 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-
+        
         
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
