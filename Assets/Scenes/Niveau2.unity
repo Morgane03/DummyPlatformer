@@ -24087,7 +24087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddb00c319875f5e4594cbb0e4cf0c885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dead: 
+  number: 0
   text: {fileID: 0}
 --- !u!222 &574759215
 CanvasRenderer:
@@ -25045,6 +25045,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 222137017, guid: 59320b782cb34644dad3434addda1207, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 574759213}
     - target: {fileID: 1072159297417012728, guid: 59320b782cb34644dad3434addda1207, type: 3}
       propertyPath: m_Name
       value: Player
