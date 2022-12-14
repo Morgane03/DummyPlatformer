@@ -593,7 +593,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 226.96652, y: 37.99878}
+  m_Offset: {x: 225.15274, y: 37.99878}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -604,7 +604,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4920044, y: 2.5409737}
+  m_Size: {x: 2.4919891, y: 2.5409698}
   m_EdgeRadius: 0
 --- !u!483693784 &96517139
 TilemapRenderer:
@@ -2989,6 +2989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 222137017, guid: 59320b782cb34644dad3434addda1207, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 827879022}
     - target: {fileID: 1072159297417012706, guid: 59320b782cb34644dad3434addda1207, type: 3}
       propertyPath: DashTime
       value: 2
@@ -5748,6 +5752,7 @@ Transform:
   - {fileID: 356757834}
   - {fileID: 473910679}
   - {fileID: 1257834319}
+  - {fileID: 1736834042}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -60844,6 +60849,76 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec074d11d6de6ac418a8db2c41a9bbe7, type: 3}
+--- !u!1001 &1736834041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 347093433}
+    m_Modifications:
+    - target: {fileID: 4206583083830620761, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_Size.y
+      value: 10.086479
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620761, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.0386925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 230.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 57.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206583083830620767, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+      propertyPath: m_Name
+      value: CheckPoint (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+--- !u!4 &1736834042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4206583083830620766, guid: c028d7bba0f7b4a43b9318fed33c46b0, type: 3}
+  m_PrefabInstance: {fileID: 1736834041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1740497459
 GameObject:
   m_ObjectHideFlags: 0
