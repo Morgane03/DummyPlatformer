@@ -21556,8 +21556,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471191086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.84, y: -7.3, z: 0}
-  m_LocalScale: {x: 1.608, y: 1.3405, z: 1}
+  m_LocalPosition: {x: 38.56, y: -7.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1483721690}
@@ -30187,7 +30187,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -30211,7 +30211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696577702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.196476, y: -0.7, z: -11}
+  m_LocalPosition: {x: -12.1234, y: -0.64, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42365,7 +42365,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1663082735}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 10
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -42389,7 +42389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712599536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.196476, y: -0.7, z: -11}
+  m_LocalPosition: {x: -12.1234, y: -0.64, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43128,10 +43128,10 @@ RectTransform:
   m_Father: {fileID: 588306294}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 667, y: 155}
-  m_SizeDelta: {x: 20, y: 2.0779}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 220, y: -43}
+  m_SizeDelta: {x: 20, y: 2.077896}
   m_Pivot: {x: 0.46628314, y: 0.5}
 --- !u!114 &834083734
 MonoBehaviour:
@@ -78381,11 +78381,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 244367824364827691, guid: 9266508520235e04c83a79c4051b8a0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.494823
+      value: -56.71
       objectReference: {fileID: 0}
     - target: {fileID: 244367824364827691, guid: 9266508520235e04c83a79c4051b8a0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.992413
+      value: 10.78
       objectReference: {fileID: 0}
     - target: {fileID: 244367824364827691, guid: 9266508520235e04c83a79c4051b8a0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -79024,10 +79024,10 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.3
-  m_ScreenY: 0.5
+  m_ScreenY: 0.6
   m_CameraDistance: 11
   m_DeadZoneWidth: 0.4
-  m_DeadZoneHeight: 0.5
+  m_DeadZoneHeight: 0.3
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 2
@@ -83150,7 +83150,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 37.42803, y: -7.0178604}
+  m_Offset: {x: 38.791065, y: -7.0178604}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -83161,7 +83161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.901985, y: 4.6637993}
+  m_Size: {x: 6.2605515, y: 4.6637993}
   m_EdgeRadius: 0
 --- !u!114 &1483721689
 MonoBehaviour:
@@ -114983,7 +114983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072159297417012732, guid: 59320b782cb34644dad3434addda1207, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 1072159297417012732, guid: 59320b782cb34644dad3434addda1207, type: 3}
       propertyPath: m_LocalPosition.z
@@ -131175,10 +131175,10 @@ RectTransform:
   m_Father: {fileID: 588306294}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152, y: 166}
-  m_SizeDelta: {x: 20, y: 2.0779}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 278, y: -32}
+  m_SizeDelta: {x: 20, y: 2.077896}
   m_Pivot: {x: 0.46628314, y: 0.5}
 --- !u!114 &2031208000
 MonoBehaviour:
@@ -131227,13 +131227,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.5
-  m_fontSizeBase: 1.5
+  m_fontSize: 2
+  m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
