@@ -8,27 +8,44 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
-    public Text nameText;
-    public Text dialogueText;
+    private Text nameText;
+    private Text dialogueText;
+    public GameObject dialogPrefab;
 
-    public Animator animator;
+    private Animator animator;
 
     private Queue<string> sentences;
 
     private void Awake()
     {
-        instance = this;
-        if(instance == null)
+        
+        if(instance != null)
         {
             Debug.LogWarning(" Il y a plus d une instance de dialogueManager dans la scene");
+            Destroy(gameObject);
             return;
         }
+        instance = this;
+        GameObject existingUI = GameObject.FindGameObjectWithTag("DialogUI");
+        if(existingUI == null)
+        {
+            GameObject UI = Instantiate(dialogPrefab);
+            DontDestroyOnLoad(UI);
+            Text[] texts = UI.GetComponentsInChildren<Text>();
+            nameText = texts[0];
+            dialogueText = texts[1];
+            animator = UI.GetComponent<Animator>();
 
+            Button nextButton = UI.GetComponentInChildren<Button>();
+            nextButton.onClick.AddListener(DisplayNextSentence);
+        }
         sentences = new Queue<string>();
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        Debug.Log(animator.name, animator.gameObject);
+        Debug.Log(animator.runtimeAnimatorController, animator.gameObject);
         animator.SetBool("isOpen", true);
 
         nameText.text = dialogue.name;

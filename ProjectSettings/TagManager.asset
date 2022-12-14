@@ -11,6 +11,7 @@ TagManager:
   - Fall
   - PlateformSpawn
   - Stop
+  - DialogUI
   layers:
   - Default
   - TransparentFX
