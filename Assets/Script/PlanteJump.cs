@@ -25,12 +25,12 @@ public class PlanteJump : MonoBehaviour
 
    IEnumerator JumpPlante()
     {
-        Jumping = true;
+        Jumping = true; //pour l'animation d'intéraction
         animator.SetBool("Jumping", true);
-        playerMouvement.JumpForce = 13;
-        yield return new WaitForSeconds(2);
-        playerMouvement.JumpForce = 8;
-        Jumping = false;
+        playerMouvement.JumpForce = 13; //augmente la force de saut du joueur
+        yield return new WaitForSeconds(2); //pendant 2s
+        playerMouvement.JumpForce = 8; //retour à sa force de base
+        Jumping = false; //fin de l'animation
         animator.SetBool("Jumping", false);
     }
 }
