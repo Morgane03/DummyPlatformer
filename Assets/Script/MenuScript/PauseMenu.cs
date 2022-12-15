@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,6 +12,17 @@ public class PauseMenu : MonoBehaviour
     public static bool gameIsPause = false;
 
     public GameObject PauseMenuUI;
+
+    private void Awake()
+    {
+        GameObject existingUI = GameObject.FindGameObjectWithTag("PauseUI");
+        if (existingUI == null)
+        {
+            GameObject UI = Instantiate(PauseMenuUI);
+            DontDestroyOnLoad(UI);
+            Button button = UI.GetComponentInChildren<Button>();
+        }
+    }
 
 
     // Update is called once per frame
