@@ -16,16 +16,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Awake()
     {
-        GameObject ExistingUi = GameObject.FindGameObjectWithTag("PauseUI");
-        if (ExistingUi == null)
-        {
-            GameObject UI = Instantiate(PauseMenuPrefab);
-            DontDestroyOnLoad(UI);
-        }
-        else
-        {
-            DontDestroyOnLoad(ExistingUi);
-        }
+        DontDestroyOnLoad(ExistingUi);
     }
 
 
@@ -34,7 +25,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(gameIsPause)
+            if (gameIsPause)
             {
                 Resume();
             }
@@ -46,9 +37,9 @@ public class PauseMenu : MonoBehaviour
     }
     void Paused()
     {
-        
+
         // activer le menu pause
-        PauseMenuPrefab.SetActive(true);
+        ExistingUi.SetActive(true);
         // arreter le temps
         Time.timeScale = 0.0f;
         // changer le statut du jeu
@@ -57,7 +48,7 @@ public class PauseMenu : MonoBehaviour
 
     void Resume()
     {
-        PauseMenuPrefab.SetActive(false);
+        ExistingUi.SetActive(false);
         Time.timeScale = 1.0f;
         gameIsPause = false;
     }
