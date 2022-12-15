@@ -8161,6 +8161,7 @@ GameObject:
   - component: {fileID: 279808765}
   - component: {fileID: 279808764}
   - component: {fileID: 279808763}
+  - component: {fileID: 279808767}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -8185,8 +8186,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -866.02, y: 461.02}
-  m_SizeDelta: {x: 102.23, y: 77.09}
+  m_AnchoredPosition: {x: -876.01, y: 468.16}
+  m_SizeDelta: {x: 82.24, y: 62.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279808763
 MonoBehaviour:
@@ -8295,6 +8296,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279808761}
   m_CullTransparentMesh: 1
+--- !u!95 &279808767
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279808761}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f1f3d5e4be3b5a459acdf27db3b939e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &286475975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7504203932844050703, guid: 655e47d1e206ef24eb4831946e9edc79, type: 3}
@@ -60986,7 +61007,7 @@ GameObject:
   - component: {fileID: 1043957461}
   - component: {fileID: 1043957460}
   m_Layer: 0
-  m_Name: Teleport
+  m_Name: Programme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61032,8 +61053,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programme Teleport : \n\tInspir\xE9 de celui d'Owen\n\nProgramme conteur
-    de mort : \n\tTuto unity fr pour le player pref\n"
+  m_text: "Programme Teleport et mouvement des plateformes : \n\tInspir\xE9 de celui
+    d'Owen\n\nProgramme conteur de mort : \n\tTuto unity fr pour le player pref\n\nProgramme
+    pour les dialogues :\n\tLivre \"Aide memoir C#\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -61176,7 +61198,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 23cbfda68c6033a4e85bf1d119f8eeac, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -61268,7 +61290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069749905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.899373, y: -5.026674, z: -0.0011447407}
+  m_LocalPosition: {x: -3.52, y: -5.026674, z: -0.0011447407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84060,7 +84082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.75, y: -7.84}
+  m_AnchoredPosition: {x: 10.54, y: -7.84}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824658892
