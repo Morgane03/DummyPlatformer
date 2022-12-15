@@ -4129,6 +4129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc65fb261edc464bbc14f5524eb5410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Wait: 0
 --- !u!114 &305967778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19908,7 +19909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 383.33, y: -40}
+  m_AnchoredPosition: {x: 383.32996, y: -40}
   m_SizeDelta: {x: 716.67, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827879022
@@ -23259,6 +23260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc65fb261edc464bbc14f5524eb5410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Wait: 0
 --- !u!114 &1212198135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83670,7 +83672,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
