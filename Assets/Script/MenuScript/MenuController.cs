@@ -13,4 +13,10 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void ReloadLvl(string _sceneName)
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(_sceneName);
+    }
 }

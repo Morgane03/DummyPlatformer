@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    // Créer un jeu en 2D facilement avec Unity (#19 : Menu Pause) TutoUnity2D
+    // Time.TimeScale tiré d'un livre sur le code en C#
 
     public static bool gameIsPause = false;
 
     public GameObject PauseMenuUI;
+
 
     // Update is called once per frame
     void Update()
@@ -25,8 +27,6 @@ public class PauseMenu : MonoBehaviour
                 Paused();
             }
         }
-
-        
     }
     void Paused()
     {
